@@ -3,6 +3,7 @@ body {
     background: linear-gradient(45deg, #383e42, #28282d);
     color: whitesmoke;
     font-family: Arial, Times New Roman;
+	height: 100%;
 }
 
 /*container*/
@@ -87,14 +88,13 @@ appearance: none;
 }
  .checkbox + label:before {
   width: 35px;
-  height: 20px;
+  height: 22px;
   border-radius: 30px;
   border: 2px solid #000000;
   background-color: #969696;
   content: "";
-  margin-right: 15px;
+  margin-right: auto;
   transition: background-color 0.5s linear;
-  z-index: 5;
   position: absolute;
   left: 0px;
 }
@@ -109,7 +109,6 @@ appearance: none;
   position: absolute;
   left: 2px;
   top: 2px;
-  z-index: 10;
 }
  .checkbox:checked + label:before {
   background-color: #730000;
