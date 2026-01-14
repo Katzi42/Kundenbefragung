@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kundenbefragung</title>
+    <link rel="stylesheet" href=".style.css" />
+  </head>
+  
+  <body>
+   <main class="container"><h1 class="title center">Kundenbefragung - POCO Einrichtingsmärkte GmbH</h1>
+    <p class="description">Vielen Dank, dass Sie in unserer Befragung teilnehmen. Bitte beantworten Sie folgende Fragen, damit wir in Zukunft uns verbessern können.</p>
+ 
+  <form action="mailto:iryna.ostroha@bbs1-northeim.eu" method="POST" id="survey-form">
+
+<!--fieldset wielange-radio-btn-->
+<fieldset>
+ <legend>Wie lange sind Sie Kunde bei uns?</legend>
+  <input id="erstes-mal" type="radio" class="wielange-radio-btn" name="wielange" value="erstes-mal" checked />
+  <label class="wielange" for="erstes-mal">Erstes Mal</label><br>
+  
+  <input id="halbjahr" type="radio" class="wielange-radio-btn" name="wielange" value="halbjahr"/>
+  <label class="wielange" for="halbjahr">Seit kürzem</label><br>
+  
+  <input id="jahr" type="radio" class="wielange-radio-btn" name="wielange" value="jahr"/>
+  <label class="wielange" for="jahr">Ca. ein Jahr</label><br>
+  
+  <input id="mehr-jahr" type="radio" class="wielange-radio-btn" name="wielange" value="mehr-jahr"/>
+  <label class="wielange" for="mehr-jahr">Mehrere Jahre</label><br>
+  
+ </fieldset>
+ 
+<!--fieldset checkbox--> 
+<fieldset> 
+  <legend>Wie sind Sie auf uns aufmerksam geworden?</legend>
+ <table>
+   <tbody>
+      <tr>
+   <td><input type="checkbox" class="checkbox" id="social-media" name="choice" value="social-media" />
+   <label for="social-media">Social Media</label></td>
+   
+   <td><input type="checkbox" class="checkbox" id="internet" name="choice" value="internet" />
+   <label for="internet">Internet</label></td>
+     
+   <td><input type="checkbox" class="checkbox" id="empfelung" name="choice" value="empfelung" />
+   <label for="empfelung">Empfelung</label></td>
+      </tr>
+      <tr>
+   <td><input type="checkbox" class="checkbox" id="reputation" name="choice" value="reputation" />
+   <label for="reputation">Reputation</label></td>
+     
+   <td><input type="checkbox" class="checkbox" id="werbung" name="choice" value="werbung" />
+   <label for="werbung">Werbung</label></td>
+   
+   <td><input type="checkbox" class="checkbox" id="zufall" name="choice" value="zufall" />
+   <label for="zufall">Zufällig</label></td>
+       </tr>
+    </tbody>
+   </table> 
+</fieldset>
+
+<!--fieldset selector-->
+<fieldset>
+ <legend>Wie bewerten Sie die folgende Bereiche?</legend>
+ 
+ <table>
+   <tbody>
+     <tr><td><label class="selector-label" for="produktqualitaet">Produktqualität</label></td> 
+     <td><select class="selector" id="produktqualitaet" name="produktqualitaet">
+    <option class="opt" selected value="sehr-gut">Sehr gut</option>
+    <option class="opt" value="gut">Gut</option>
+    <option class="opt" value="befriedigend">Befriedigend</option>
+    <option class="opt" value="ausreichend">Ausreichend</option>
+    <option class="opt" value="schlecht">Schlecht</option>
+  </select></td></tr>
+   
+     <tr><td><label class="selector-label" for="dienst">Dienstleistungsqualität</label></td>
+     <td><select class="selector" id="dienst" name="dienst">
+    <option class="opt" selected value="sehr-gut">Sehr gut</option>
+    <option class="opt" value="gut">Gut</option>
+    <option class="opt" value="befriedigend">Befriedigend</option>
+    <option class="opt" value="ausreichend">Ausreichend</option>
+    <option class="opt" value="schlecht">Schlecht</option>
+ </select></td></tr>
+   
+     <tr><td><label class="selector-label" for="kundenservice">Kundenservice</label></td>
+     <td><select class="selector" id="kundenservice" name="kundenservice">
+    <option class="opt" selected value="sehr-gut">Sehr gut</option>
+    <option class="opt" value="gut">Gut</option>
+    <option class="opt" value="befriedigend">Befriedigend</option>
+    <option class="opt" value="ausreichend">Ausreichend</option>
+    <option class="opt" value="schlecht">Schlecht</option>
+ </select></td></tr>
+
+     <tr><td><label class="selector-label" for="zuverlaessigkeit">Zuverlässigkeit</label></td>
+     <td><select class="selector" id="zuverlaessigkeit" name="zuverlaessigkeit">
+    <option class="opt" selected value="sehr-gut">Sehr gut</option>
+    <option class="opt" value="gut">Gut</option>
+    <option class="opt" value="befriedigend">Befriedigend</option>
+    <option class="opt" value="ausreichend">Ausreichend</option>
+    <option class="opt" value="schlecht">Schlecht</option>
+ </select></td></tr>
+   
+     <tr><td><label class="selector-label" for="preis-leistung">Preis-Leistung-Verhältnis</label></td>
+     <td><select class="selector" id="preis-leistung" name="preis-leistung">
+    <option class="opt" selected value="sehr-gut">Sehr gut</option>
+    <option class="opt" value="gut">Gut</option>
+    <option class="opt" value="befriedigend">Befriedigend</option>
+    <option class="opt" value="ausreichend">Ausreichend</option>
+    <option class="opt" value="schlecht">Schlecht</option>
+ </select></td></tr>
+   
+     <tr><td><label class="selector-label" for="erreichbarkeit">Erreichbarkeit</label></td>
+     <td><select class="selector" id="erreichbarkeit" name="erreichbarkeit">
+    <option class="opt" selected value="sehr-gut">Sehr gut</option>
+    <option class="opt" value="gut">Gut</option>
+    <option class="opt" value="befriedigend">Befriedigend</option>
+    <option class="opt" value="ausreichend">Ausreichend</option>
+    <option class="opt" value="schlecht">Schlecht</option>
+ </select></td></tr>
+      </tbody>
+      </table>
+     </fieldset>
+
+<!--fieldset textarea-->
+<fieldset>
+ <legend> Weitere Fragen</legend>
+ <label for="comments">Gibt es etwas, was Sie noch mitteilen wollen?</label><br>
+ <textarea cols="50" rows="5" name="comments" id="comments" placeholder="Hier Text eingeben."></textarea>
+</fieldset>
+
+<!--send-reset-buttons-->
+<button class="card" type="send-btn" id="send">Senden</button>
+<button class="card" type="reset" id="reset">Zurück</button>
+    </form>
+    </main>
+    
+    <footer class="footer">&copy; Katzi42 aka Iryna O.</footer>
+  </body>
+</html>
