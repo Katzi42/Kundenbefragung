@@ -9,8 +9,7 @@ body {
 .container {
     background-color: #912626;
     background: linear-gradient(45deg, #721e1e, #990000);
-    width: 80wv;
-    max-width: 600px;
+    width: 80%;
     border-radius: 10px;
     margin: auto;
     padding: 10px 20px;
@@ -80,7 +79,6 @@ appearance: none;
   cursor: pointer;
   line-height: 1.3;
   padding-left:50px;
-  position: relative;
   margin-right: 30px;
 }
  .checkbox + label:before {
@@ -141,7 +139,6 @@ appearance: none;
  outline: 2px solid black;
 }
 .selector:hover {
-    background-color: #d1b0b0;
     cursor: pointer;
 }
 
